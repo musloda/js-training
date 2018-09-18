@@ -12,13 +12,13 @@
 
 function multiply(number1, number2){
     let somme = 0;
-    if (number1 < 0){
+    if (number2 < 0){
         for (let i = 1; i <= -number2; i++){
-            somme = somme - number2;
+            somme = somme - number1;
         }
     } else {
-        for (let i = 1; i >= number2; i++){
-            somme = somme + number2;
+        for (let i = 1; i <= number2; i++){
+            somme = somme + number1;
             }
     }
 return somme;
