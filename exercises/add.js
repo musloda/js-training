@@ -8,6 +8,11 @@
 
 // Your code :
 
+function add(nombre1, nombre2){
+    let somme = nombre1 + nombre2;
+    return somme
+}
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
