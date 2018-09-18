@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+function getLength(phrase) {
+    return phrase.length
+}
 //* Begin of tests
 const assert = require('assert')
 
