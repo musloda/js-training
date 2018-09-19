@@ -10,10 +10,14 @@
  *
  */
 
-
+function jadenCase(mot) {
+    mot = mot.toUpperCase();
+    return mot;
+}
 
 //* Begin of tests
 const assert = require('assert')
+assert.strictEqual(jadenCase("mot"), "MOT")
 
-assert.fail('You must write your own tests')
+//assert.fail("c'est pas bon")
 // End of tests */

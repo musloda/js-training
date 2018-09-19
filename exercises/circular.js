@@ -9,6 +9,9 @@
 
 // Your code :
 
+const circular = new Object();
+circular.circualar = circular;
+return circular.circula;
 //* Begin of tests
 const assert = require('assert')
 
